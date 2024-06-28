@@ -74,7 +74,7 @@ void main() {
   var person2 = Person('Sombat');
   var engine2 = Engine('Civic', 120);
 
-  var car = Car('LAMBORGHIN', '', person, engine);
+  var car = Car('LAMBORGHINI', '', person, engine);
   var honda = Honda('Honda', '', person2, engine2, 'BLACK');
   print('รายละเอียดรถ');
   car.displayCarInfo();
